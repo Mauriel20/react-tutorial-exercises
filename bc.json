@@ -146,7 +146,7 @@
         {
             "slug": "03.1-your-first-component",
             "title": "03.1-your-first-component",
-            "done": false,
+            "done": true,
             "path": "exercises/03.1-your-first-component",
             "translations": [
                 "es",
