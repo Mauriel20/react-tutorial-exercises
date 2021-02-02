@@ -5,6 +5,19 @@ import PropTypes from "prop-types";
 const Alert = props => {
 	//your component here
 
+	if (getRandomint == 0) {
+		return (
+			<div className="alert alert-danger" role="alert">
+				this is a primary primary alert—check it out!
+			</div>
+		);
+	} else {
+		return (
+			<div className="alert alert-danger" role="alert">
+				this is a primary primary alert—check it out!
+			</div>
+		);
+	}
 };
 Alert.propTypes = {
 	color: PropTypes.string,
@@ -20,3 +33,8 @@ ReactDOM.render(
 	</div>,
 	document.querySelector("#myDiv")
 );
+
+function getRandomint(a, b) {
+	var randomNumber = Math.floor(Math.randon() * 2+1);
+	return randomNumber;
+}
